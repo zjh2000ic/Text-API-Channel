@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与前端 theme.css 的 dsw-alias-bg-base 对齐：浅色 FFFFFF / 深色 151517 -->
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_dark">#FF151517</color>
+    <!-- dsw-static-blue-500 -->
+    <color name="brand">#FF3964FE</color>
+    <!-- adaptive icon 的底色：图标本身是黑底白字，这里必须用黑色才能无缝衔接 -->
+    <color name="ic_launcher_background">#FF000000</color>
+</resources>

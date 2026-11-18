@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Text API Channel</string>
+    <string name="no_file_picker">没有找到可用的文件选择器</string>
+    <string name="mic_denied">未获得麦克风权限，语音输入不可用</string>
+    <string name="back_again_to_exit">再按一次退出</string>
+    <string name="no_browser">没有可以打开链接的浏览器</string>
+    <string name="no_app_for_file">没有可以打开该文件的应用</string>
+    <string name="download_failed">下载失败</string>
+    <string name="download_started">开始下载 %1$s</string>
+</resources>
