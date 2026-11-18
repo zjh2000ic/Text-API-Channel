@@ -13,6 +13,15 @@ API 对话 demo，MIT 许可）装进一个 Android 外壳里，做成能直接�
 业务逻辑仍是上游原样，只在上游前端源码里打了很小一组补丁（见下方「前端改动清单」），
 其余适配都在 `assets/native/native.js` 和 `MainActivity` / `NativeBridge` 里。
 
+## 下载
+
+**[下载最新版 APK](https://github.com/zjh2000ic/Text-API-Channel/releases/latest)**（当前 v0.1.6）
+
+- 要求 **Android 7.0（API 24）及以上**
+- 安装包为 **debug 签名**，只能与同签名的版本覆盖升级
+- 首次使用需在「设置」中填入**你自己申请的** DeepSeek API Key，本项目不提供任何额度
+- 不想装 APK 也可以只用电脑浏览器跑前端，见下方「先看这里：怎么打开」
+
 ## 关于本项目（请先读这段）
 
 **这是一个「想给自己手机上装个 AI 聊天 App」而顺带做出来的项目，不是一个专业软件工程作品。**
@@ -35,7 +44,7 @@ API 对话 demo，MIT 许可）装进一个 Android 外壳里，做成能直接�
 
 | 入口 | 命令 / 动作 | 说明 |
 | --- | --- | --- |
-| 手机（推荐） | 装 `dist/app-debug.apk`，或自己 `.\scripts\build-apk.ps1` 打一个 | WebView 里跑前端产物，数据存在 App 自己的存储里 |
+| 手机（推荐） | 从 [Releases](https://github.com/zjh2000ic/Text-API-Channel/releases/latest) 下载 APK，或自己 `.\scripts\build-apk.ps1` 打一个 | WebView 里跑前端产物，数据存在 App 自己的存储里 |
 | 电脑浏览器（调试用） | `npx serve app/src/main/assets/www` 或任意静态服务器 | 前端产物已随仓库提供，直接指向 `assets/www` 即可。**用 `http://` 打开**，端口随意 |
 | ❌ 不要用 | 直接双击 `assets/www/index.html` | `file://` 页面浏览器不给正常存数据，**关掉后 API Key 和聊天记录都会消失**（页面会用红条提示） |
 
