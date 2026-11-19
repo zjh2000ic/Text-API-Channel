@@ -13,7 +13,7 @@ API 对话 demo，MIT 许可）装进一个 Android 外壳里，做成能直接�
 
 ## 下载
 
-**[下载最新版 APK](https://github.com/zjh2000ic/Text-API-Channel/releases/latest)**（当前 v0.1.7）
+**[下载最新版 APK](https://github.com/zjh2000ic/Text-API-Channel/releases/latest)**（当前 v0.1.8）
 
 - 要求 **Android 7.0（API 24）及以上**
 - 安装包为 **debug 签名**，只能与同签名的版本覆盖升级
