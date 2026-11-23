@@ -10,8 +10,8 @@ android {
         applicationId = "io.github.zjh2000ic.textapichannel"
         minSdk = 24
         targetSdk = 34
-        versionCode = 8
-        versionName = "0.1.8"
+        versionCode = 10
+        versionName = "0.1.10"
     }
 
     buildTypes {
